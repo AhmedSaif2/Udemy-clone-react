@@ -1,0 +1,32 @@
+.courses_section {
+  margin: 5px auto;
+  width: 80%;
+  border: 1px solid #d1d7dc;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: min(20px, 2vw);
+  padding: 3vw;
+  text-align: center;
+}
+
+h2 {
+  font-weight: bold !important;
+  font-size: min(20px, 10vw) !important;
+}
+.coursesFlexBox {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.explore {
+  width: min(30vw, 100px);
+  font-size: min(10px, 2vw);
+  display: inline !important;
+  background-color: white;
+  border: 2px solid black;
+  padding: 10px;
+  font-weight: bold;
+  margin: 2% auto;
+}

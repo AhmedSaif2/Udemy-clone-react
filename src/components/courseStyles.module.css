@@ -1,0 +1,27 @@
+.course {
+  text-align: left;
+  width: 232px;
+  margin-left: 8px;
+  margin-bottom: 5px;
+  display: inline-block;
+  font-family: sans-serif;
+}
+
+.course:hover {
+  cursor: pointer;
+}
+
+.course h2 {
+  font-size: min(20px, 2vw);
+  margin: 5px 0px;
+}
+
+.course span {
+  font-size: min(20px, 1vw);
+  color: grey;
+}
+.rating,
+.star {
+  font-size: min(15px, 1vw);
+  color: #ffa500;
+}
