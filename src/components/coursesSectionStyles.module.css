@@ -14,11 +14,6 @@ h2 {
   font-weight: bold !important;
   font-size: min(20px, 10vw) !important;
 }
-.coursesFlexBox {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-}
 
 .explore {
   width: min(30vw, 100px);
