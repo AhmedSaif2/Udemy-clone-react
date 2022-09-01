@@ -14,11 +14,19 @@ const renderStars = (rate) => {
   for (let i = 0; i < maxRate; i++) {
     if (i < rate) {
       stars.push(
-        <FontAwesomeIcon className={styles.star} icon="fa-solid fa-star" />
+        <FontAwesomeIcon
+          key={i}
+          className={styles.star}
+          icon="fa-solid fa-star"
+        />
       );
     } else {
       stars.push(
-        <FontAwesomeIcon className={styles.star} icon="fa-regular fa-star" />
+        <FontAwesomeIcon
+          key={i}
+          className={styles.star}
+          icon="fa-regular fa-star"
+        />
       );
     }
   }
