@@ -1,27 +1,21 @@
 .courses_section {
-  margin: 5px auto;
-  width: 80%;
-  border: 1px solid #d1d7dc;
+  border: 0.1rem solid #d1d7dc;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  font-size: min(20px, 2vw);
-  padding: 3vw;
-  text-align: center;
+  font-size: 1rem;
+  padding: 1rem;
 }
 
-h2 {
-  font-weight: bold !important;
-  font-size: min(20px, 10vw) !important;
+.courses_section p {
+  font-size: 0.8rem;
 }
 
 .explore {
-  width: min(30vw, 100px);
-  font-size: min(10px, 2vw);
-  display: inline !important;
+  font-size: 0.5rem;
+  display: inline;
   background-color: white;
-  border: 2px solid black;
-  padding: 10px;
+  border: 0.1rem solid black;
+  padding: 0.5rem;
   font-weight: bold;
-  margin: 2% auto;
+  margin: 0.5rem auto;
 }
