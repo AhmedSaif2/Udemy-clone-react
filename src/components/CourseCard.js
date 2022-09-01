@@ -2,8 +2,7 @@ import React from "react";
 import styles from "./courseStyles.module.css";
 import FontAwesomeIconList from "./FontAwesomeIconList";
 
-function CourseCard(props) {
-  let course = props.course;
+function CourseCard({ course }) {
   return (
     <div className={styles.course}>
       <img
