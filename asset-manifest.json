@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/%7BUdemy-Clone-React%7D/static/css/main.ba71138e.css",
+    "main.js": "/%7BUdemy-Clone-React%7D/static/js/main.09fb375d.js",
+    "static/js/787.5cabf3f9.chunk.js": "/%7BUdemy-Clone-React%7D/static/js/787.5cabf3f9.chunk.js",
+    "static/media/python_course_1.PNG": "/%7BUdemy-Clone-React%7D/static/media/python_course_1.383c1f04342bdb3e91d8.PNG",
+    "static/media/python_course_5.PNG": "/%7BUdemy-Clone-React%7D/static/media/python_course_5.e0f8c40ab9557c2ae916.PNG",
+    "static/media/python_course_2.PNG": "/%7BUdemy-Clone-React%7D/static/media/python_course_2.b6f4c29c6428cc59a18f.PNG",
+    "static/media/Alarm-image.jpg": "/%7BUdemy-Clone-React%7D/static/media/Alarm-image.163af8cf8a54d0cb67aa.jpg",
+    "static/media/excel_course_2.PNG": "/%7BUdemy-Clone-React%7D/static/media/excel_course_2.d9166f81423298f727c2.PNG",
+    "static/media/python_course_4.PNG": "/%7BUdemy-Clone-React%7D/static/media/python_course_4.7d9d1da0d1434ba6d7d9.PNG",
+    "static/media/python_course_3.PNG": "/%7BUdemy-Clone-React%7D/static/media/python_course_3.d1cb23a831ce9feb8378.PNG",
+    "static/media/excel_course_1.PNG": "/%7BUdemy-Clone-React%7D/static/media/excel_course_1.a3a4845dd83b3b417957.PNG",
+    "static/media/logo.svg": "/%7BUdemy-Clone-React%7D/static/media/logo.6ce24c58023cc2f8fd88.svg",
+    "index.html": "/%7BUdemy-Clone-React%7D/index.html",
+    "main.ba71138e.css.map": "/%7BUdemy-Clone-React%7D/static/css/main.ba71138e.css.map",
+    "main.09fb375d.js.map": "/%7BUdemy-Clone-React%7D/static/js/main.09fb375d.js.map",
+    "787.5cabf3f9.chunk.js.map": "/%7BUdemy-Clone-React%7D/static/js/787.5cabf3f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ba71138e.css",
+    "static/js/main.09fb375d.js"
+  ]
+}
