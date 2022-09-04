@@ -1,4 +1,5 @@
 import React from "react";
+import CategoryTabs from "./CategoryTabs";
 import CourseCard from "./CourseCard";
 import CoursesList from "./CoursesList";
 import styles from "./coursesSectionStyles.module.css";
@@ -6,6 +7,12 @@ import styles from "./coursesSectionStyles.module.css";
 function CoursesSection(props) {
   return (
     <section className="container">
+      <h2>A broad selection of courses</h2>
+      <p>
+        Choose from 185,000 online video courses with additions published every
+        month
+      </p>
+      <CategoryTabs></CategoryTabs>
       <div className={styles.courses_section}>
         <h2>Expand your career opportunities with Python</h2>
         <p>

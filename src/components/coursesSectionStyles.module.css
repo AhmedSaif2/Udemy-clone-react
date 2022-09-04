@@ -1,3 +1,25 @@
+.categoryList {
+  list-style: none;
+  padding-left: 0%;
+}
+
+.categoryList li {
+  display: inline;
+  margin-right: 1rem;
+}
+
+.categories {
+  background: none;
+  border: none;
+  color: #777077;
+  font-weight: bold;
+}
+
+.categories:hover {
+  color: #1c1d1f;
+  cursor: pointer;
+}
+
 .courses_section {
   border: 0.1rem solid #d1d7dc;
   display: flex;
