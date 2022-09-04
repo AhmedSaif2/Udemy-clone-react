@@ -25,8 +25,9 @@
   font-size: 0.6rem;
   color: grey;
 }
+
 .rating,
 .star {
   font-size: 0.6rem;
-  color: #ffa500;
+  color: #e59819 !important;
 }
