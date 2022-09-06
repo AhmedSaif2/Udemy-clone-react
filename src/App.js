@@ -1,15 +1,16 @@
 import "./App.css";
-import CoursesSection from "./components/CoursesSection";
 import Navbar from "./components/Navbar";
-import OffersSection from "./components/OffersSection";
+import { Routes, Route } from "react-router-dom";
+import HomePage from "./components/HomePage";
 
 function App() {
   return (
-    <div className="App">
+    <>
       <Navbar></Navbar>
-      <OffersSection></OffersSection>
-      <CoursesSection></CoursesSection>
-    </div>
+      <Routes>
+        <Route path="/Udemy-Clone-React" element={<HomePage />}></Route>
+      </Routes>
+    </>
   );
 }
 

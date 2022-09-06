@@ -1,10 +1,12 @@
-import React, { useState } from "react";
+import React from "react";
 import styles from "./NavbarStyles.module.css";
 import { library } from "@fortawesome/fontawesome-svg-core";
 import { fas } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { far } from "@fortawesome/free-regular-svg-icons";
 import SearchForm from "./SearchForm";
+import { Link } from "react-router-dom";
+
 library.add(fas, far);
 
 function Navbar() {
@@ -14,12 +16,12 @@ function Navbar() {
         className={styles.dropdownMenu}
         icon="fa-soild fa-bars"
       ></FontAwesomeIcon>
-      <a href="#">
+      <Link to="/Udemy-Clone-React">
         <img
           src="https://www.udemy.com/staticx/udemy/images/v7/logo-udemy.svg"
           alt="Udemy logo"
         />
-      </a>
+      </Link>
       <button className={styles.navLink}>Categories</button>
       <SearchForm></SearchForm>
       <div className={styles.collapseLinks}>
