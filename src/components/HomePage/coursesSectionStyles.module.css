@@ -1,0 +1,48 @@
+.categoryList {
+  list-style: none;
+  padding-left: 0%;
+}
+
+.categoryList li {
+  display: inline;
+  margin-right: 1rem;
+}
+
+.categories {
+  background: none;
+  border: none;
+  color: #777077;
+  font-weight: bold;
+}
+
+.categories:hover {
+  color: #1c1d1f;
+  cursor: pointer;
+}
+
+.courses_section {
+  border: 0.1rem solid #d1d7dc;
+  display: flex;
+  flex-direction: column;
+  font-size: 1rem;
+  padding: 1.8rem 1.5rem;
+}
+
+.courses_section p {
+  font-size: 0.8rem;
+  line-height: 1.2rem;
+}
+
+.courses_section h2 {
+  font-size: 1.5rem;
+}
+
+.explore {
+  font-size: 0.5rem;
+  display: inline;
+  background-color: white;
+  border: 0.1rem solid black;
+  padding: 0.5rem;
+  font-weight: bold;
+  margin: 0.5rem auto;
+}
