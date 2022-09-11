@@ -1,0 +1,32 @@
+.navSection {
+  position: sticky;
+  top: 0%;
+  background-color: white;
+  z-index: 2;
+  border-bottom: 0.05rem solid #d1d7dc;
+}
+
+.navSection .navTabs {
+  width: 65%;
+}
+
+.navSection .navTabs button {
+  background: none;
+  border: none;
+  width: 25%;
+  color: #777077;
+  font-weight: 1000;
+  font-size: 0.8rem;
+  padding: 1rem 0.1rem;
+}
+
+.navSection .navTabs button:hover {
+  box-shadow: 0 0.1rem 0 #1c1d1f;
+  color: #1c1d1f;
+}
+
+@media (max-width: 1080px) {
+  .navSection .navTabs {
+    width: 100%;
+  }
+}
