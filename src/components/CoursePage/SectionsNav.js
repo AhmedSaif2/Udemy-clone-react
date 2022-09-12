@@ -1,23 +1,24 @@
 import React from "react";
 import styles from "./sectionsNavStyles.module.css";
+import { Link, animateScroll as scroll } from "react-scroll";
 
 function SectionsNav() {
   return (
     <nav className={styles.navSection}>
       <div className="container">
         <div className={styles.navTabs}>
-          <a className={styles.anchor} href="#overview">
+          <Link className={styles.anchor} to="overview">
             <button>Overview</button>
-          </a>
-          <a className={styles.anchor} href="#curriculum">
+          </Link>
+          <Link className={styles.anchor} offset={-70} to="curriculum">
             <button>Curriculum</button>
-          </a>
-          <a className={styles.anchor} href="#instructor">
+          </Link>
+          <Link className={styles.anchor} offset={-70} to="instructor">
             <button>Instructor</button>
-          </a>
-          <a className={styles.anchor} href="#reviews">
+          </Link>
+          <Link className={styles.anchor} offset={-70} to="reviews">
             <button>Reviews</button>
-          </a>
+          </Link>
         </div>
       </div>
     </nav>
