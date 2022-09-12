@@ -1,6 +1,7 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
 import styles from "./overviewCardStyles.module.css";
+import { HashLink } from "react-router-hash-link";
 
 function OverviewCard({ course }) {
   return (
@@ -54,9 +55,9 @@ function OverviewCard({ course }) {
             </li>
           </ul>
           <div className={styles.share}>
-            <a href="#share">Share</a>
-            <a href="#gift">Gift This Course</a>
-            <a href="#apply">Apply coupon</a>
+            <HashLink to="#share">Share</HashLink>
+            <HashLink to="#gift">Gift This Course</HashLink>
+            <HashLink to="#apply">Apply coupon</HashLink>
           </div>
         </div>
       </div>

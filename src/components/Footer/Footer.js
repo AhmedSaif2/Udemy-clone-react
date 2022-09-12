@@ -1,6 +1,8 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
 import { Link } from "react-router-dom";
+import { HashLink } from "react-router-hash-link";
+
 import styles from "./footerStyles.module.css";
 
 function Footer() {
@@ -8,8 +10,9 @@ function Footer() {
     <footer>
       <div className={styles.partners}>
         <h2>
-          Top companies choose <a href="#udemy-business">Udemy Business</a> to
-          build in-demand career skills.
+          Top companies choose{" "}
+          <HashLink to="#udemy-business">Udemy Business</HashLink> to build
+          in-demand career skills.
         </h2>
         <div className={styles.logos}>
           <img
@@ -37,53 +40,53 @@ function Footer() {
       <div className={styles.footerLinks}>
         <ul>
           <li>
-            <a href="#udemy-business">Udemy Business</a>
+            <HashLink to="#udemy-business">Udemy Business</HashLink>
           </li>
           <li>
-            <a href="#Teach">Teach on Udemy</a>
+            <HashLink to="#Teach">Teach on Udemy</HashLink>
           </li>
           <li>
-            <a href="#get-app">Get the app</a>
+            <HashLink to="#get-app">Get the app</HashLink>
           </li>
           <li>
-            <a href="#about-us">about us</a>
+            <HashLink to="#about-us">about us</HashLink>
           </li>
           <li>
-            <a href="#contact-us">contact us</a>
-          </li>
-        </ul>
-        <ul>
-          <li>
-            <a href="#careers">Careers</a>
-          </li>
-          <li>
-            <a href="#blogs">Blogs</a>
-          </li>
-          <li>
-            <a href="#help">Help and Support</a>
-          </li>
-          <li>
-            <a href="#affiliate">Affiliate</a>
-          </li>
-          <li>
-            <a href="#investors">Investors</a>
+            <HashLink to="#contact-us">contact us</HashLink>
           </li>
         </ul>
         <ul>
           <li>
-            <a href="#terms">Terms</a>
+            <HashLink to="#careers">Careers</HashLink>
           </li>
           <li>
-            <a href="#privacy-policy">Privacy Policy</a>
+            <HashLink to="#blogs">Blogs</HashLink>
           </li>
           <li>
-            <a href="#cookies">Cookie Settings</a>
+            <HashLink to="#help">Help and Support</HashLink>
           </li>
           <li>
-            <a href="#sitemap">Sitemap</a>
+            <HashLink to="#affiliate">Affiliate</HashLink>
           </li>
           <li>
-            <a href="#accessability">Accessability Statements</a>
+            <HashLink to="#investors">Investors</HashLink>
+          </li>
+        </ul>
+        <ul>
+          <li>
+            <HashLink to="#terms">Terms</HashLink>
+          </li>
+          <li>
+            <HashLink to="#privacy-policy">Privacy Policy</HashLink>
+          </li>
+          <li>
+            <HashLink to="#cookies">Cookie Settings</HashLink>
+          </li>
+          <li>
+            <HashLink to="#sitemap">Sitemap</HashLink>
+          </li>
+          <li>
+            <HashLink to="#accessability">Accessability Statements</HashLink>
           </li>
         </ul>
         <button className={styles.language}>

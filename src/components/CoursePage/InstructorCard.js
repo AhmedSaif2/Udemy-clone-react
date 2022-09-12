@@ -2,12 +2,13 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
 import styles from "./instructorSectionStyles.module.css";
 import ShowMore from "react-show-more-button/dist/module";
+import { HashLink } from "react-router-hash-link";
 
 function InstructorCard({ instructor }) {
   return (
     <div className={styles.instructorCard}>
       <h3>
-        <a href={"#" + instructor.name}>{instructor.name}</a>
+        <HashLink to={"#" + instructor.name}>{instructor.name}</HashLink>
       </h3>
       <h4>{instructor.job}</h4>
       <div className={styles.instructorDetails}>
