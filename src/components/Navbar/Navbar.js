@@ -16,7 +16,7 @@ function Navbar() {
         className={styles.dropdownMenu}
         icon="fa-soild fa-bars"
       ></FontAwesomeIcon>
-      <Link to="/Udemy-Clone-React">
+      <Link to="/">
         <img
           src="https://www.udemy.com/staticx/udemy/images/v7/logo-udemy.svg"
           alt="Udemy logo"
