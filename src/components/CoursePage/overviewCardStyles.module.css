@@ -1,8 +1,8 @@
 .overviewCard {
   position: absolute;
+  height: 80%;
   left: 65%;
   margin: 2rem 0.2rem;
-  height: 100%;
 }
 .stickyCard {
   position: sticky;
