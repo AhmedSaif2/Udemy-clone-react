@@ -1,0 +1,89 @@
+footer {
+  margin-top: 2rem;
+  background-color: #1c1d1f;
+}
+
+.partners {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 1.5rem 2rem;
+  border-bottom: 0.1rem solid #3e4143;
+}
+
+.partners h2 {
+  width: 50%;
+  color: white;
+  font-weight: 700;
+  font-size: 1.3rem;
+}
+.partners h2 a {
+  color: #cec0fc;
+  font-weight: 700;
+}
+
+.partners .logos {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.partners .logos img {
+  height: 3rem;
+  margin-left: 1rem;
+}
+
+.footerLinks {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 1.5rem;
+  padding-left: 2rem;
+}
+
+.footerLinks ul {
+  list-style: none;
+  width: 20rem;
+  padding-left: 0rem;
+}
+
+.footerLinks ul li {
+  margin-bottom: 1rem;
+}
+
+.footerLinks ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.footerLinks ul li a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+.language {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 5rem;
+  width: 10rem;
+  height: 3rem;
+  background: none;
+  color: white;
+  border: 0.1rem solid white;
+}
+
+.copyright {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem 2rem;
+}
+
+.copyright div {
+  color: white;
+}
+
+.copyright img {
+  width: 7rem;
+}
