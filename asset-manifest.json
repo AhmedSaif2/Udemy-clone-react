@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/Udemy-Clone-React/static/css/main.c91dba04.css",
-    "main.js": "/Udemy-Clone-React/static/js/main.4fa5d750.js",
+    "main.css": "/Udemy-Clone-React/static/css/main.f0d8f29e.css",
+    "main.js": "/Udemy-Clone-React/static/js/main.6c33c603.js",
     "static/js/787.5cabf3f9.chunk.js": "/Udemy-Clone-React/static/js/787.5cabf3f9.chunk.js",
     "static/media/Alarm-image.jpg": "/Udemy-Clone-React/static/media/Alarm-image.163af8cf8a54d0cb67aa.jpg",
     "index.html": "/Udemy-Clone-React/index.html",
-    "main.c91dba04.css.map": "/Udemy-Clone-React/static/css/main.c91dba04.css.map",
-    "main.4fa5d750.js.map": "/Udemy-Clone-React/static/js/main.4fa5d750.js.map",
+    "main.f0d8f29e.css.map": "/Udemy-Clone-React/static/css/main.f0d8f29e.css.map",
+    "main.6c33c603.js.map": "/Udemy-Clone-React/static/js/main.6c33c603.js.map",
     "787.5cabf3f9.chunk.js.map": "/Udemy-Clone-React/static/js/787.5cabf3f9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c91dba04.css",
-    "static/js/main.4fa5d750.js"
+    "static/css/main.f0d8f29e.css",
+    "static/js/main.6c33c603.js"
   ]
 }
