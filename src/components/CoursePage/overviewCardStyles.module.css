@@ -1,0 +1,80 @@
+.overviewCard {
+  position: absolute;
+  height: 80%;
+  left: 65%;
+  margin: 2rem 0.2rem;
+}
+.stickyCard {
+  position: sticky;
+  top: 2%;
+  background-color: lightblue;
+  z-index: 3;
+  background-color: white;
+  box-shadow: 0 0 0.1rem #1c1d1f;
+  border: 0.05rem solid #d1d7dc;
+  width: 22rem;
+}
+
+.stickyCard img {
+  width: 100%;
+}
+
+.content {
+  padding: 1.5rem 1.5rem;
+}
+
+.content button {
+  width: 100%;
+  margin-top: 0.5rem;
+  padding: 1rem 0rem;
+  font-weight: bold;
+  border: none;
+}
+
+.content .addCart {
+  color: white;
+  background-color: #a435f0;
+  border: 0.05rem solid #a435f0;
+}
+
+.content .buyNow {
+  background-color: white;
+  border: 0.05rem solid black;
+}
+
+.content .listHeader {
+  margin-top: 1rem;
+  font-weight: bold;
+}
+
+.content ul {
+  padding-left: 1%;
+  list-style: none;
+}
+
+.content li {
+  margin-top: 0.5rem;
+  font-size: 0.8rem;
+}
+
+.content li .icon {
+  width: 1rem;
+  margin-right: 1rem;
+}
+
+.content .share {
+  display: flex;
+  justify-content: space-around;
+}
+
+.content .share a {
+  color: #191919;
+  font-size: 0.8rem;
+  font-weight: 800;
+}
+
+@media (max-width: 1080px) {
+  .overviewCard {
+    display: none;
+  }
+}

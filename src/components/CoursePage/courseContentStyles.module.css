@@ -1,0 +1,36 @@
+.courseContent {
+  width: 65%;
+}
+
+.courseContent h2 {
+  color: #1c1d1f;
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
+}
+
+.courseContent .courseDetails {
+  font-size: 0.8rem;
+  margin-bottom: 1rem;
+  color: #1c1d1f;
+}
+
+.courseContent ul {
+  padding-left: 1rem;
+}
+
+.courseContent ul li {
+  font-size: 0.9rem;
+  margin-bottom: 0.5rem;
+  line-height: 1.2rem;
+  color: #1c1d1f;
+}
+
+.courseContent h2 {
+  margin-top: 2rem;
+}
+
+@media (max-width: 1080px) {
+  .courseContent {
+    width: 100%;
+  }
+}

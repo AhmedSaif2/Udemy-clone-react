@@ -1,0 +1,25 @@
+.accordionTitle {
+  display: flex;
+  padding: 1rem 2rem;
+  background-color: #f7f9fa;
+  border: 0.05rem solid #d1d7dc;
+}
+
+.accordionTitle:hover {
+  cursor: pointer;
+}
+
+.accordionTitle span,
+.accordionContent span {
+  margin-right: 1rem;
+}
+
+.accordionContent {
+  padding: 0.7rem 2rem;
+  border: 0.05rem solid #d1d7dc;
+}
+
+.accordionContent div {
+  font-size: 0.9rem;
+  margin: 1rem 0rem;
+}

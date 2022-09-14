@@ -1,0 +1,90 @@
+section {
+  scroll-margin-top: 5rem;
+}
+
+.titleSection {
+  width: 100%;
+  background-color: #1c1d1f;
+  color: white;
+}
+.titleSection h2 {
+  color: white;
+}
+
+.main {
+  width: 65%;
+  padding: 2rem 0.2rem;
+}
+
+.main .path {
+  color: #cec0fc;
+  margin-bottom: 1rem;
+  font-weight: 1000;
+  font-size: 0.8rem;
+}
+
+.main p {
+  line-height: 1.5rem;
+  font-size: 1.2rem;
+}
+
+.main .notes {
+  font-size: 0.9rem;
+}
+
+.main .notes div {
+  margin-bottom: 0.8rem;
+}
+
+.main .notes .link {
+  color: #cec0fc;
+  text-decoration: underline;
+}
+
+.main .notes .rate {
+  color: #e59819;
+  font-weight: bold;
+}
+
+.main .notes .updateDetails span {
+  margin-right: 1.2rem;
+}
+
+.main img {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.smallScreen {
+  display: none;
+}
+
+.addCart {
+  width: 100%;
+  margin: 1rem 0rem;
+  padding: 1rem 0rem;
+  font-weight: bold;
+  border: none;
+  color: white;
+  background-color: #a435f0;
+  border: 0.05rem solid #a435f0;
+}
+
+.share a {
+  color: white;
+  font-size: 0.8rem;
+  font-weight: 800;
+}
+
+@media (max-width: 1080px) {
+  .main {
+    width: 100%;
+  }
+  .smallScreen {
+    display: block;
+  }
+  .share {
+    display: flex;
+    justify-content: space-around;
+  }
+}
